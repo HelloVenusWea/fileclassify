@@ -1,0 +1,26 @@
+{
+    "default_provider": "deepseek",
+    "providers": {
+        "deepseek": {
+            "api_key": "sk-",
+            "api_url": "https://api.deepseek.com/v1/chat/completions",
+            "model_name": "deepseek-chat"
+        },
+        "siliconflow": {
+            "api_key": "sk-",
+            "api_url": "https://api.siliconflow.cn/v1/chat/completions",
+            "model_name": "deepseek-ai/DeepSeek-V3"
+        },
+        "aliyun": {
+            "api_key": "sk-",
+            "api_secret": "sk-fea212ef0082477281d50855bb8f1913",
+            "api_url": "https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions",
+            "model_name": "qwen-max"
+        },
+        "github": {
+            "api_key": "",
+            "api_url": "https://models.inference.ai.azure.com/chat/completions",
+            "model_name": "gpt-4o"
+        }
+    }
+}
